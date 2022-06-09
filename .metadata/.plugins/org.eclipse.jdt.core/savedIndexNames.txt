@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+C:\Users\Dj\Desktop\GrandCircusLabs\4.4-SOLIDRefactoringLab\.metadata\.plugins\org.eclipse.jdt.core
+256436964.index
+3192207964.index
+2842618424.index
+1819631594.index
+3915464740.index
+3922093274.index
+2359328104.index
+2045672711.index
+1990065270.index
+2736831405.index
+1865797976.index
+1818541827.index
+2581106281.index
+2880038370.index
+933277098.index
+4044757637.index
+229744526.index
+1738939718.index
+521018416.index
