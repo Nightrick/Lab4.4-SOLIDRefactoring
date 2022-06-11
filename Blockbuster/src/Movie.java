@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Movie implements Play {
 	
@@ -67,14 +68,19 @@ public class Movie implements Play {
 		}
 	}
 	
-	public void play(int iPlay) {
+	public void play() {
 		play(scenes);
 	}
 
 	@Override
 	public void play(List<String> scenes) {
-			System.out.println("Scene " + iPlay + ": " + scenes.get(iPlay));
-			currentTime++;
+		Scanner scnr = new Scanner(System.in);
+		System.out.print("What scene would you like to view? (0-" + (scenes.size()-1) + "): ");
+		iPlay=scnr.nextInt();
+		setiPlay(iPlay);
+		
+		System.out.println("Scene " + iPlay + ": " + scenes.get(iPlay));
+		currentTime++;
 	}
  
 }

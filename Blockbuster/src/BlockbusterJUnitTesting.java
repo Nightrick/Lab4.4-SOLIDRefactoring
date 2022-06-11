@@ -128,8 +128,8 @@ class BlockbusterJUnitTesting {
 		ArrayList<String> apeScenes = new ArrayList<>(Arrays.asList("Apes are poor", "Apes take over Planet", "Holy sh@t, the statue of liberty is an ape??"));
 		
 		Movie movie1 = new Movie("Planet of the Apes", 183, apeScenes, 0);
-		movie1.play(0);
-		movie1.play(1);
+		movie1.play();
+		movie1.play();
 		
 		assertEquals(2, movie1.getCurrentTime());
 	}
